@@ -3,11 +3,9 @@
     <header>
       <h1>Vue.js Useful Codes</h1>
     </header>
-    <main class="route">
+    <main>
       <router-link to="/infinity">무한 스크롤 (Infinity Scroll)</router-link>
     </main>
-
-    <section><router-view /></section>
   </div>
 </template>
 
@@ -19,8 +17,6 @@ export default {};
 * {
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
 }
 body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -41,11 +37,5 @@ main {
   padding: 0 2rem;
   max-width: 640px;
   margin: 0 auto;
-}
-.route {
-  margin-bottom: 50px;
-}
-.route a {
-  color: white;
 }
 </style>
