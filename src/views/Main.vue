@@ -5,6 +5,7 @@
     </header>
     <main>
       <router-link to="/infinity">무한 스크롤 (Infinity Scroll)</router-link>
+      <router-link to="/dragndrop">드래그 엔 드롭 (Drag n Drop)</router-link>
     </main>
   </div>
 </template>
